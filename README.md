@@ -2,7 +2,7 @@
 
 > Upload any PDF or Word document and get an instant AI-powered analysis.
 
-**Live demo:** https://your-deployment-url.vercel.app *(replace after deploying)*
+**Live demo:** https://feyti-doc-assistant-indol.vercel.app 
 
 ---
 
@@ -34,7 +34,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/feyti-doc-assistant.git
+git clone https://github.com/keepdaping/feyti-doc-assistant.git
 cd feyti-doc-assistant
 
 # 2. Install dependencies
