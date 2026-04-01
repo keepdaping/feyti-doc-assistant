@@ -14,7 +14,7 @@ function getFileExtension(filename) {
 }
 
 async function extractTextFromPDF(buffer) {
-  const pdfParse = (await import('pdf-parse/lib/pdf-parse.js')).default;
+  const pdfParse = (await import('pdf-parse')).default;
   const data = await pdfParse(buffer);
   return data.text;
 }
